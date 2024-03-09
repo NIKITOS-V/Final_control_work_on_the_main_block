@@ -34,10 +34,10 @@ class ShortStrings {
         int LenArr = ArrayOfShortStrings.Length;
         
         if (LenArr != 0){
-            for (int index = 0; index < ArrayOfShortStrings.Length-1; index++){
+            for (int index = 0; index < LenArr-1; index++){
                 Console.Write($"'{ArrayOfShortStrings[index]}', ");
             }
-            Console.Write($"'{ArrayOfShortStrings[ArrayOfShortStrings.Length-1]}']");
+            Console.Write($"'{ArrayOfShortStrings[LenArr-1]}']");
         }
         
         else{
