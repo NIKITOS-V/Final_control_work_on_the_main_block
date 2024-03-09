@@ -9,9 +9,12 @@ class ShortStrings:
         self.PrintResult()
 
     def FindShortStrings(self):
+        Strings = ""
+
         for str in self.UserArray:
             if len(str) <= self.LenStr:
-                self.ArrayOfShortStrings.append(str)
+                Strings += f"{str} "
+        self.ArrayOfShortStrings = Strings.split()
 
     def PrintResult(self):
         print(self.ArrayOfShortStrings)
