@@ -1,3 +1,6 @@
+import os
+
+
 class ShortStrings:
     LenStr = 3
 
@@ -21,3 +24,5 @@ class ShortStrings:
 
 
 SS = ShortStrings()
+
+os.system("pause")
